@@ -1,0 +1,2 @@
+rootProject.name='seccion_07_drawer_recycler_card'
+include ':app', ':mylibrary'

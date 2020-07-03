@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BIP</string>
+    <string name="user_name">Armando Santos</string>
+    <string name="user_email">armandoemmanuels@gmail.com</string>
+
+    <string name="open_drawer">Navigacion Drawer is open</string>
+    <string name="close_drawer">Navigacion Drawer is close</string>
+
+    <string name="home_fragment_title">Home</string>
+    <string name="home_fragment_hello">Hello from home</string>
+    <string name="arrivals_fragment_title">Arrivals</string>
+    <string name="arrivals_fragment_hello">Hello from Arrivals</string>
+    <string name="departures_fragment_title">Departures</string>
+    <string name="departures_fragment_hello">Hello from Departures</string>
+    <string name="others">OTHERS</string>
+    <string name="profile">PROFILE</string>
+    <string name="settings">SETTINGS</string>
+    <string name="arrivals">ARRIVALS</string>
+    <string name="departures">DEPARTURES</string>
+    <string name="home">HOME</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
