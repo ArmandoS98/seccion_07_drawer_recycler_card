@@ -31,6 +31,7 @@ class DeparturesFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        activity?.setTitle(R.string.departures_fragment_title)
         recycler = view.recyclerView as RecyclerView
 
         setRecyclerView()
@@ -58,16 +59,19 @@ class DeparturesFragment : Fragment() {
     private fun getFlights(): ArrayList<Flight> {
         return object : ArrayList<Flight>() {
             init {
-                add(Flight(1, "Guatemala", R.drawable.ic_arrivals))
-                add(Flight(2, "Santa Rosa", R.drawable.ic_arrivals))
-                add(Flight(3, "Baja Verapaz", R.drawable.ic_arrivals))
-                add(Flight(4, "Guatemala", R.drawable.ic_arrivals))
-                add(Flight(5, "Guatemala", R.drawable.ic_arrivals))
-                add(Flight(6, "Guatemala", R.drawable.ic_arrivals))
-                add(Flight(7, "Guatemala", R.drawable.ic_arrivals))
-                add(Flight(8, "Guatemala", R.drawable.ic_arrivals))
-                add(Flight(9, "Guatemala", R.drawable.ic_arrivals))
-                add(Flight(10, "Guatemala", R.drawable.ic_arrivals))
+                add(Flight(1, "Guatemala", R.drawable.ciudad_guatemala))
+                add(Flight(2, "Santa Rosa", R.drawable.santa_rosa))
+                add(Flight(3, "Baja Verapaz", R.drawable.baja_verapaz))
+                add(Flight(4, "Alta Verapaz", R.drawable.alta_verapaz))
+                add(Flight(5, "Escuintla", R.drawable.escuintla))
+                add(Flight(6, "Izabal", R.drawable.izabal))
+                add(Flight(7, "Jalapa", R.drawable.jalapa))
+                add(Flight(8, "Jutiapa", R.drawable.jutiapa))
+                add(Flight(9, "Peten", R.drawable.peten))
+                add(Flight(10, "Quetzaltenango", R.drawable.quetzaltenango))
+                add(Flight(11, "Quiche", R.drawable.quiche))
+                add(Flight(12, "San Marcos", R.drawable.san_marcos))
+                add(Flight(13, "Solola", R.drawable.solola))
             }
         }
     }
